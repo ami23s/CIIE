@@ -455,4 +455,89 @@ SPEAKER SECTION
     height: 2400px;
   }
 }
+/*---------------------------------------------------
+PRICING SECTION
+----------------------------------------------------*/
+#pricing1{
+  height: 600px;
+  background-color: rgb(242, 242, 242,0.7);
+}
+#pricing2{
+  height: 600px;
+}
+#pricing3{
+  height: 500px;
+  padding: 40px;
+}
+#pricinghead{
+  height: 50px;
+  padding-left: 50px;
+}
+#offer1{
+  height: 350px;
+  background-color: white;
+ /* -webkit-box-shadow: 5px 5px 4px 5px #888888;*/
+  color: #1a1a1a;
+  padding-left: 30px;
+  padding-right: 30px;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+#offer2{
+  height: 350px;
+  background-color: white;
+  /*-webkit-box-shadow: 5px 5px 4px 5px #888888;*/
+  color: #1a1a1a;
+  padding-right: 30px;
+  padding-left: 30px;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+#offer1:hover{
+  background-color: #f50136;
+  color: white;
+  -webkit-box-shadow: 5px 5px 4px 5px #888888;
+}
+#offer2:hover{
+  background-color: #f50136;
+  color: white;
+  -webkit-box-shadow: 5px 5px 4px 5px #888888;
+}
+ .price_footer {
+  margin-top: 30px;
+}
+.price_box:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+
+.brand_item {
+  background-color: #f0f2f6 !important;
+}
+.brand_item {
+  opacity: 0.3;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+.brand_item img {
+  display: block;
+  max-width: 130px;
+  margin: 0 auto;
+}
+.brand_item:hover {
+  opacity: 1;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+.pt100 {
+  padding-top: 100px !important;
+}
+.pb100 {
+  padding-bottom: 100px !important;
+}
+
 
