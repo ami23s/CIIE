@@ -1,0 +1,26 @@
+
+/*Carousel for spons*/
+.sponsorCarousel-control 			 { width:  4%; }
+.sponsorCarousel-control.left,.sponsorCarousel-control.right {margin-left:15px;background-image:none;}
+@media (max-width: 767px) {
+	.sponsorCarousel-inner .active.left { left: -100%; }
+	.sponsorCarousel-inner .next        { left:  100%; }
+	.sponsorCarousel-inner .prev		 { left: -100%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+	.sponsorCarousel-inner .active.left { left: -50%; }
+	.sponsorCarousel-inner .next        { left:  50%; }
+	.sponsorCarousel-inner .prev		 { left: -50%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+	.active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+	.sponsorCarousel-inner .active.left { left: -25%; }
+	.sponsorCarousel-inner .next        { left:  25%; }
+	.sponsorCarousel-inner .prev		 { left: -25%; }	
+}
+
